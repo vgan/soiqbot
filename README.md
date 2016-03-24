@@ -1,5 +1,6 @@
 # soiqbot
 A Python Twitter bot which posts recently active questions from Stack Overflow on an hourly schedule.  Tweaked to run on AWS Lambda.
+Running Example: https://twitter.com/soiqbot
 
 Prerequisites:
 --------------
