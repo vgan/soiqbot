@@ -10,7 +10,7 @@ Lambda Setup Notes:
 -------------------
 The way Lambda works you need to include any dependencies. After you add your keys to soiq_keys.py you would just zip everything for uploading.
 
-In your AWS console under Lambda, click "Create Lambda Funtion" and skip the blueprint. Then upload the zip file.
+In your AWS console under Lambda, click "Create Lambda Function" and skip the blueprint. Then upload the zip file.
 The handler is based on the name of your main file + the name of the handler function (which is what Lambda uses to run.)
 
 Our main file is soiq.py and the function name I used is just "handler" so it becomes: soiq.handler
