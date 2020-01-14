@@ -19,7 +19,11 @@ def handler(event, context):
 	tweetbody = "nope"
 	tags = ""
 	for tag in question.tags:
-		tags = (tags + "#" + tag + " ")
+        if tag eq "raku":
+            tag = (tags + "#rakulang ")
+        else:
+		    tags = (tags + "#" + tag + " ")
+
 		longbody = title + "\n" + url  + "\n" + tags
 		longbodynourl = title  + "\n" + tags
 	shortbody = title[:119] + "\n" + url
